@@ -77,6 +77,7 @@ export class App extends React.Component{
 
                 </div>
                 <div className="container-middle">
+                    <p>coucou</p>
                 <div className="totalCookie">
                     <button onClick={this.clicked} className="cookie"><strong>Click on me!</strong></button>
                 </div>
