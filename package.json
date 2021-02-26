@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy": "rm -rf dist && parcel build index.html --public--url /cookie_clicker_react",
+    "deploy": "gh-pages -d dist",
     "dev": "parcel index.html"
   },
   "author": "",
